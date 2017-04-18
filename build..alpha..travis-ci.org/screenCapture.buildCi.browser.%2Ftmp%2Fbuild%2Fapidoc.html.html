@@ -54,12 +54,54 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.get-env">module get-env</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.get-env.get-env">
+            function <span class="apidocSignatureSpan"></span>get-env
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.get-env" id="apidoc.module.get-env">module get-env</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.get-env.get-env" id="apidoc.element.get-env.get-env">
+        function <span class="apidocSignatureSpan"></span>get-env
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get-env = function () {
+    var args = [];
+    for (var _i = 0; _i &lt; arguments.length; _i++) {
+        args[_i - 0] = arguments[_i];
+    }
+    var extras = _buildExtras(args);
+    var nodeEnv = (process.env.NODE_ENV || '').toLowerCase();
+    for (var i = 0; i &lt; extras.length; ++i) {
+        var extra = extras[i];
+        if (lodash_1.includes(extra.rules, nodeEnv)) {
+            return extra.env;
+        }
+    }
+    if (lodash_1.includes(PROD_RULES, nodeEnv)) {
+        return 'prod';
+    }
+    if (lodash_1.includes(DEV_RULES, nodeEnv) || nodeEnv === '') {
+        return 'dev';
+    }
+    throw new Error("Unknown environment name: NODE_ENV=" + nodeEnv);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
