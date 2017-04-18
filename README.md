@@ -1,9 +1,14 @@
-# api documentation for  [get-env (v0.5.10)](https://github.com/pilwon/node-get-env)  [![npm package](https://img.shields.io/npm/v/npmdoc-get-env.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-get-env) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-get-env.svg)](https://travis-ci.org/npmdoc/node-npmdoc-get-env)
+# npmdoc-get-env
+
+#### api documentation for  [get-env (v0.5.10)](https://github.com/pilwon/node-get-env)  [![npm package](https://img.shields.io/npm/v/npmdoc-get-env.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-get-env) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-get-env.svg)](https://travis-ci.org/npmdoc/node-npmdoc-get-env)
+
 #### Return `dev`, `prod`, or optional extra environements based on `process.env.NODE_ENV`
 
-[![NPM](https://nodei.co/npm/get-env.png?downloads=true)](https://www.npmjs.com/package/get-env)
+[![NPM](https://nodei.co/npm/get-env.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/get-env)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-get-env/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-get-env_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-get-env/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-get-env/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-get-env/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-get-env/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-get-env/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-get-env/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Pilwon Huh",
-        "email": "pilwon@gmail.com"
+        "name": "Pilwon Huh"
     },
     "bugs": {
         "url": "https://github.com/pilwon/node-get-env/issues"
@@ -59,13 +63,11 @@
     "main": "dist/index.js",
     "maintainers": [
         {
-            "name": "pilwon",
-            "email": "pilwon@gmail.com"
+            "name": "pilwon"
         }
     ],
     "name": "get-env",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/pilwon/node-get-env.git"
@@ -75,16 +77,6 @@
     "version": "0.5.10"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module get-env](#apidoc.module.get-env)
-
-
-
-# <a name="apidoc.module.get-env"></a>[module get-env](#apidoc.module.get-env)
 
 
 
