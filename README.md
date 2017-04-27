@@ -1,6 +1,6 @@
 # npmdoc-get-env
 
-#### api documentation for  [get-env (v0.5.10)](https://github.com/pilwon/node-get-env)  [![npm package](https://img.shields.io/npm/v/npmdoc-get-env.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-get-env) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-get-env.svg)](https://travis-ci.org/npmdoc/node-npmdoc-get-env)
+#### basic api documentation for  [get-env (v0.5.10)](https://github.com/pilwon/node-get-env)  [![npm package](https://img.shields.io/npm/v/npmdoc-get-env.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-get-env) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-get-env.svg)](https://travis-ci.org/npmdoc/node-npmdoc-get-env)
 
 #### Return `dev`, `prod`, or optional extra environements based on `process.env.NODE_ENV`
 
@@ -74,7 +74,8 @@
     },
     "scripts": {},
     "types": "dist/index.d.ts",
-    "version": "0.5.10"
+    "version": "0.5.10",
+    "bin": {}
 }
 ```
 
